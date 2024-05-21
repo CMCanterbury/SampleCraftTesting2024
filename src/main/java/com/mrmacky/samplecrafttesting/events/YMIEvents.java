@@ -1,11 +1,11 @@
-package com.your_name.your_mod_id.events;
+package com.mrmacky.samplecrafttesting.events;
 
-import com.your_name.your_mod_id.YourModID;
+import com.mrmacky.samplecrafttesting.SampleCraftTesting;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.event.entity.living.LivingAttackEvent;
 
-@Mod.EventBusSubscriber(modid = YourModID.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod.EventBusSubscriber(modid = SampleCraftTesting.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class YMIEvents {
 
     @SubscribeEvent

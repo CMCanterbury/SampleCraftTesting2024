@@ -1,6 +1,6 @@
-package com.your_name.your_mod_id.registry;
+package com.mrmacky.samplecrafttesting.registry;
 
-import com.your_name.your_mod_id.YourModID;
+import com.mrmacky.samplecrafttesting.SampleCraftTesting;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -8,9 +8,9 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
 
-public class YMIBlocks {
+public class SCTBlocks {
 
-    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(YourModID.MOD_ID);
+    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(SampleCraftTesting.MOD_ID);
 
     //Blocks go here
 
@@ -21,7 +21,7 @@ public class YMIBlocks {
 
     private static DeferredBlock<Block> registerWithItem(String blockID, Supplier<? extends Block> sup) {
         DeferredBlock<Block> block = registerWithNoItem(blockID, sup);
-        YMIItems.ITEMS.registerSimpleBlockItem(blockID, sup);
+        SCTItems.ITEMS.registerSimpleBlockItem(blockID, sup);
         return block;
     }
 
