@@ -1,5 +1,7 @@
 {
   "itemGroup.creative_tab": "New Creative Tab",
   "item.samplecrafttesting.example_item": "Example Item",
-  "item.samplecrafttesting.second_item": "Second Item"
+  "item.samplecrafttesting.second_item": "Second Item",
+  "block.samplecrafttesting.example_block": "Example Block",
+  "item.samplecrafttesting.example_block": "Example Block"
 }

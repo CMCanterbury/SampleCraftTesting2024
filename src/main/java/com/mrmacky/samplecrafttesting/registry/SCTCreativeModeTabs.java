@@ -22,6 +22,8 @@ public class SCTCreativeModeTabs {
                     .icon(() -> SCTItems.EXAMPLE_ITEM.get().getDefaultInstance())
                     .displayItems(((pParameters, pOutput) -> {
                         pOutput.accept(SCTItems.EXAMPLE_ITEM);
+                        pOutput.accept(SCTItems.SECOND_ITEM);
+                        pOutput.accept(SCTBlocks.EXAMPLE_BLOCK.asItem());
                     }))
                     .build()
     );

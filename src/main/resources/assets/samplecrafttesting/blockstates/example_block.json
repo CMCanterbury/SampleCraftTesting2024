@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "samplecrafttesting:block/example_block"
+    }
+  }
+}

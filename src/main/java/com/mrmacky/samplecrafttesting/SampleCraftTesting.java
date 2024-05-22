@@ -13,7 +13,7 @@ import org.slf4j.Logger;
 public class SampleCraftTesting
 {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "your_mod_id";
+    public static final String MOD_ID = "samplecrafttesting";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
 
