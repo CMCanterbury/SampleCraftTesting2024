@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "samplecrafttesting:example_item"
+    }
+  },
+  "result": {
+    "item": "samplecrafttesting:example_block"
+  }
+}

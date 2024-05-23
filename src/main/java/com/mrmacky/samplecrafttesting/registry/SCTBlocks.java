@@ -16,7 +16,7 @@ public class SCTBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(SampleCraftTesting.MOD_ID);
 
     //Blocks go here
-    public static DeferredBlock<Block> EXAMPLE_BLOCK = registerWithItem("example_block", () -> new LaunchBlock(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)));
+    public static DeferredBlock<Block> EXAMPLE_BLOCK = registerWithItem("example_block", () -> new LaunchBlock(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().mapColor(MapColor.STONE)));
 
     public static void register(IEventBus bus) {
         BLOCKS.register(bus);
@@ -25,7 +25,7 @@ public class SCTBlocks {
 
     private static DeferredBlock<Block> registerWithItem(String blockID, Supplier<? extends Block> sup) {
         DeferredBlock<Block> block = registerWithNoItem(blockID, sup);
-        SCTItems.ITEMS.registerSimpleBlockItem(blockID, sup);
+        SCTItems.ITEMS.registerSimpleBlockItem(block);
         return block;
     }
 

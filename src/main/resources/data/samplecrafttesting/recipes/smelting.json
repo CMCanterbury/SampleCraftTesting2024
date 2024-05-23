@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 100,
+  "experience": 1000,
+  "ingredient": {
+    "item": "samplecrafttesting:example_item"
+  },
+  "result": "samplecrafttesting:second_item"
+}
