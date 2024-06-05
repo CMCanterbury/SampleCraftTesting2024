@@ -11,6 +11,12 @@ group = mod_group_id
 
 repositories {
     mavenLocal()
+    maven {
+        url "https://cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
 }
 
 base {
@@ -89,7 +95,7 @@ dependencies {
     // For all intends and purposes: You can treat this dependency as if it is a normal library you would use.
     implementation "net.neoforged:neoforge:${neo_version}"
 
-//    implementation "curse.maven:jei-238222:5306217"
+    implementation ("curse.maven:aether-255308:5263405")
 
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime

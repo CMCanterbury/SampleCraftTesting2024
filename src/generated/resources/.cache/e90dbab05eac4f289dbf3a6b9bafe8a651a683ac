@@ -1,0 +1,4 @@
+// 1.20.4	2024-05-24T12:16:41.7380656	Block States: samplecrafttesting
+b7ad8fd167663b104547260adabc8dea542ab24a assets/samplecrafttesting/blockstates/example_block.json
+0a6fd877bf743adfa0820a64fcaeedaaac2d7b49 assets/samplecrafttesting/models/block/gold_block.json
+788c1ec694d59e9c360b1f72a754f2f155707d35 assets/samplecrafttesting/models/item/example_block.json
